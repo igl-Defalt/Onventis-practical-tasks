@@ -1,16 +1,8 @@
 {
-    "compilerOptions": {    
-        "watch": true,
-        "types": [
-            "cypress",
-            "cypress-xpath"
-        ],
-        "outDir": "./dist/",
-        "noImplicitAny": true,
-        "module": "es6",
-        "target": "es5",
-        "jsx": "react",
-        "allowJs": true,
-        
-    }
-}
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress", "cypress-xpath"]
+    },
+    "include": ["**/*.ts"]
+  }
